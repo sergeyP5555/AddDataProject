@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+#registration input {
+    width: 300px;
+    margin-top: 10px;
+}
+
+#btn_registration {
+    background-color: #05e51b;
+    border: 2px solid darkgreen;
+}
+
+.registration_page {
+    width: 140px;
+    margin-top: 30px;
+}
+
+.registration_page a {
+    color: green;
+    text-decoration: none;
+}
+
+.data {
+    font-size: 24px;
+    color: #033073;
+}
+
+#addData {
+    font-size: 20px;
+    color: black;
+    text-decoration: none
+}
+
+#addData:hover {
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+#go_configuration {
+    text-decoration: none;
+    color: darkgreen;
+    font-size: 20px;
+}
+
+#go_configuration:hover {
+    color: lightgreen;
+}
+
+#go_exit {
+    margin-top: 30px;
+    width: 100px;
+    background-color: #05e51b;
+    border: 2px solid darkgreen;
+}
+
+#go_save {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 185px;
+    background-color: #05e51b;
+    border: 2px solid darkgreen;
+}
+
+.addData {
+    font-size: 20px;
+}
+
+form textarea {
+    width: 300px;
+    height: 100px;
+}
+
+#select {
+    width: 185px;
+    font-size: 14px;
+}

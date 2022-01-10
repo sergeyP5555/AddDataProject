@@ -1,0 +1,15 @@
+{
+  "name": "root/html",
+  "autoload": {
+    "classmap": ["src"]
+  },
+  "authors": [
+    {
+      "name": "Sergei Popov",
+      "email": "popserg5555@gmail.com"
+    }
+  ],
+  "require": {
+    "squizlabs/php_codesniffer": "*"
+  }
+}
