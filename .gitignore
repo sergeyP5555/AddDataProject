@@ -3,3 +3,4 @@ supervisord.pid
 supervisord.log
 server/vendor/
 server/composer.lock
+server/public/files/

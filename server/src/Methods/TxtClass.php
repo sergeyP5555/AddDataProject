@@ -12,7 +12,7 @@ class TxtClass extends Singleton implements MethodInterface
     {
         $settings = new Settings();
         $fileName = $settings->getSettingByKey('txtFile') ?? 'data.txt';
-        $this->fileHandle = fopen($fileName, 'a+');
+        $this->fileHandle = fopen('files/'.$fileName, 'a+');
     }
 
     public function __destruct()

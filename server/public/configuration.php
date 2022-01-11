@@ -8,8 +8,6 @@ $settings = new Settings();
 if (isset($_POST['save'])) {
 
     $settingsArray = [
-        'csvFile' => $_POST['csvFile'],
-        'txtFile' => $_POST['txtFile'],
         'dbUser' => $_POST['dbUser'],
         'dbHost' => $_POST['dbHost'],
         'dbPassword' => $_POST['dbPassword'],
@@ -33,8 +31,6 @@ $settingsFromDB = $settings->getAllSettings();
 </head>
 <body>
 <form action="configuration.php" method="post">
-    <p>CSV</p>          <input type="text" name="csvFile" value="<?= $settingsFromDB['csvFile'] ?? '' ?>"><br>
-    <p>TXT</p>          <input type="text" name="txtFile" value="<?= $settingsFromDB['txtFile'] ?? '' ?>"><br>
     <p>DB User</p>      <input type="text" name="dbUser" value="<?= $settingsFromDB['dbUser'] ?? '' ?>"><br>
     <p>DB Host</p>      <input type="text" name="dbHost" value="<?= $settingsFromDB['dbHost'] ?? '' ?>"><br>
     <p>DB Password</p>  <input type="text" name="dbPassword" value="<?= $settingsFromDB['dbPassword'] ?? '' ?>"><br>

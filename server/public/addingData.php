@@ -8,4 +8,3 @@ if(isset($_POST['addDataBtn'])){
     $data->writeData();
     header('Location: /data.php');
 }
-

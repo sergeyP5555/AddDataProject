@@ -13,7 +13,7 @@ class CsvClass extends Singleton implements MethodInterface
     {
         $settings = new Settings();
         $fileName = $settings->getSettingByKey('csvFile') ?? 'data.csv';
-        $this->fileHandle = fopen($fileName, 'a+');
+        $this->fileHandle = fopen('files/'.$fileName, 'a+');
     }
 
     public function __destruct()
